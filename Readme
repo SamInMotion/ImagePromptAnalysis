@@ -1,0 +1,44 @@
+# Chatlog Analysis with Python
+
+This project analyzes chatlog data extracted from an HTML file. It utilizes Python libraries such as Pandas, Matplotlib, Seaborn, NetworkX, and WordCloud for data manipulation, visualization, and network analysis.
+
+## Overview
+
+The Jupyter Notebook file (`chatlog_analysis.ipynb`) contains the following analyses and visualizations:
+
+1. Data Loading and Inspection: The notebook starts by loading the chatlog data from a CSV file and displaying the first few rows to inspect the structure.
+
+2. Image URL Distribution: It visualizes the distribution of messages with and without image URLs using a pie chart.
+
+3. Word Cloud Visualization: A word cloud is generated to visualize the most common words used in the message prompts after filtering out stopwords.
+
+4. Mention Network Graph: A mention network graph is created using NetworkX to visualize the connections between users based on mentions in the messages.
+
+5. Hourly Message Analysis: Messages are resampled by hour and plotted to analyze the hourly message activity.
+
+6. Word Frequency Analysis: The frequency of the most common words used in the message prompts is analyzed and visualized using a bar plot.
+
+7. Top Mentioned Users: The top 10 most mentioned users in the chatlog are identified and plotted.
+
+## Usage
+
+To use this notebook:
+
+1. Make sure you have Python installed along with the required libraries (Pandas, Matplotlib, Seaborn, NetworkX, WordCloud).
+2. Download the chatlog data in CSV format.
+3. Open the Jupyter Notebook (`chatlog_analysis.ipynb`) in your Jupyter environment.
+4. Run each cell sequentially to execute the analysis and visualize the results.
+
+## Dependencies
+
+The notebook requires the following Python libraries:
+
+- Pandas
+- Matplotlib
+- Seaborn
+- NetworkX
+- WordCloud
+- NLTK (for stopwords)
+
+You can install the dependencies using pip:
+
